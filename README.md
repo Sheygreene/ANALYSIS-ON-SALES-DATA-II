@@ -50,7 +50,7 @@ The highest unit sold was determined by using the 'MAX' function
 
 The Highest Unit Sold in the Segment, Country and Month was determined by using XLOOKUP and VLOOKUP functions
 VLOOKUP is used to find things in a table or a range in a row.
-=VLOOKUP(what you want to look up, Where you want to look for it, The column number in the range containing the value to return, return an approximate or exact match, which is indicated as 1/TRUE or 0/FALSE).
+=VLOOKUP (what you want to look up, Where you want to look for it, The column number in the range containing the value to return, return an approximate or exact match, which is indicated as 1/TRUE or 0/FALSE).
 
 Month with the Highest Unit Sold: =VLOOKUP('Highest Unit Sold', highlight the entire entire column containing 'Units Sold' to the column containing the 'Month' column, FALSE)
 
@@ -59,6 +59,8 @@ XLOOKUP has the same function as the VLOOKUP function but it is available in Exc
 =XLOOKUP(lookup_value (the value to search for), lookup_array (the range or array to search), return_array (the range or array to return), (if_not_found), (match_mode), (search_mode)) P.S. The last three arguments are optional, while the first three are required.
 
 Country and Segment with the Highest Units Sold:
-=XLOOKUP(lookup_value (Highest unit sold), lookup_array (units sold), lookup_range (country), "N/A (exact match by default)
-=XLOOKUP(lookup_value (Highest unit sold), lookup_array (units sold), lookup_range (segment), "N/A (exact match by default)
+=XLOOKUP(lookup_value (Highest unit sold), lookup_array (units sold), lookup_range (country), "N/A (exact match by default))
+=XLOOKUP(lookup_value (Highest unit sold), lookup_array (units sold), lookup_range (segment), "N/A (exact match by default))
 
+# CONCLUSION
+I expanded my knowledge on the use of advanced Excel formulas with this task.
