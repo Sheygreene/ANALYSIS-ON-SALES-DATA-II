@@ -20,4 +20,6 @@ Data Manipulation
 3. The use of the 'SumIF' function
 4. The use of 'Xlookup' and 'Vlookup' functions
 
-![image](https://github.com/SheyGreene/ANALYSIS-ON-SALES-DATA-II/assets/140900824/ce9ac65e-f5cc-450c-9bf1-78da60f93529)
+# RAW DATA
+
+![EXCEL 3](https://github.com/SheyGreene/ANALYSIS-ON-SALES-DATA-II/blob/main/EXCEL%203.png)
