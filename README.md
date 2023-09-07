@@ -45,4 +45,20 @@ This was calculated:
 
 ![EXCEL 3(1)](https://github.com/SheyGreene/ANALYSIS-ON-SALES-DATA-II/blob/main/EXCEL%203(1).png)
 
+The highest unit sold was determined by using the 'MAX' function
+=MAX(highlighted the entire UNITS SOLD column.)
+
+The Highest Unit Sold in the Segment, Country and Month was determined by using XLOOKUP and VLOOKUP functions
+VLOOKUP is used to find things in a table or a range in a row.
+=VLOOKUP(what you want to look up, Where you want to look for it, The column number in the range containing the value to return, return an approximate or exact match, which is indicated as 1/TRUE or 0/FALSE).
+
+Month with the Highest Unit Sold: =VLOOKUP('Highest Unit Sold', highlight the entire entire column containing 'Units Sold' to the column containing the 'Month' column, FALSE)
+
+XLOOKUP has the same function as the VLOOKUP function but it is available in Excel 2016 and 2019.
+
+=XLOOKUP(lookup_value (the value to search for), lookup_array (the range or array to search), return_array (the range or array to return), (if_not_found), (match_mode), (search_mode)) P.S. The last three arguments are optional, while the first three are required.
+
+Country and Segment with the Highest Units Sold:
+=XLOOKUP(lookup_value (Highest unit sold), lookup_array (units sold), lookup_range (country), "N/A (exact match by default)
+=XLOOKUP(lookup_value (Highest unit sold), lookup_array (units sold), lookup_range (segment), "N/A (exact match by default)
 
