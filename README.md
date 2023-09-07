@@ -63,4 +63,4 @@ Country and Segment with the Highest Units Sold:
 =XLOOKUP(lookup_value (Highest unit sold), lookup_array (units sold), lookup_range (segment), "N/A (exact match by default))
 
 # CONCLUSION
-I expanded my knowledge on the use of advanced Excel formulas with this task.
+I expanded my knowledge of the use of advanced Excel formulas with this task.
